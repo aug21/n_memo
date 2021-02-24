@@ -51,12 +51,11 @@
 .ui-qna-list li p i.notice_ico::before	{ position: absolute; right:0; content: "\E91A"; font-family: "icon"; text-indent:0 }
 .ui-qna-list li p em			{ font-style: normal; }
 .ui-qna-list li p strong a,
-.ui-qna-list li ul li em		{ display: inline-block; margin-left:10px; font-size:11px; font-weight: normal; }
-.ui-qna-list li p .sv_member	{ color:#333 }
+.ui-qna-list li ul li em		{ display: inline-block; margin-left:10px; font-size:11px; }
 .ui-qna-list li .qna-content,
 .ui-qna-list li .qna-comment-content	{ padding: 0 10px; }
 .ui-qna-list .date				{ float: right; font-size:10px; opacity:.7; }
-.ui-qna-list .content			{ margin:3px 0; font-weight:400; font-family: 'noto sans kr', 'noto sans'; }
+.ui-qna-list .content			{ margin:3px 0; }
 
 .ui-qna-list li ul				{ clear:both; margin:0 10px; }
 
