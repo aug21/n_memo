@@ -53,7 +53,7 @@ if($is_member) {
 			$lists[$ii][content] = conv_content($lists[$ii][wr_content], 0, 'wr_content');
 			$lists[$ii][content] = search_font($stx, $lists[$ii][content]);
 	?>
-			<li class="theme-box box-shadow">
+			<li class="theme-box">
 				<div>
 					<p>
 					<? if($lists[$ii][is_notice]) { ?>
