@@ -2,7 +2,7 @@
 if (!defined("_GNUBOARD_")) exit; // 개별 페이지 접근 불가
 if (!$lists[$ii]['is_notice']) {
 ?>
-<button class="toggle_btn">comment <?php echo count($list)?></button>
+<button class="toggle_btn txt-point">comment <?php echo count($list)?></button>
 <?php } ?>
 <div style="display:none">
 	<?php if ($is_comment_write) {
