@@ -48,6 +48,7 @@ if($is_member) {
 
 			$is_open = false;
 			$is_author = false;
+			if(get_session("ss_secret_{$bo_table}_{$lists[$ii]['wr_num']}")) $is_open = true;
 			if(get_cookie('read_'.$lists[$ii][wr_id]) == $lists[$ii][wr_password] || $is_admin) $is_open = true;
 			if($member[mb_id] && ($member[mb_id] == $lists[$ii][mb_id])) $is_author = true;
 			$lists[$ii][content] = conv_content($lists[$ii][wr_content], 0, 'wr_content');
